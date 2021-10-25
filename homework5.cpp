@@ -6,8 +6,7 @@ using namespace std;
 
 int main ()
 {
- Linkedlist clear_list(3);
-
+Linkedlist clear_list(3);
 clear_list.clear();
 clear_list.check();
 clear_list.rcheck();
