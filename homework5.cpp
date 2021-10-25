@@ -6,15 +6,11 @@ using namespace std;
 
 int main ()
 {
- Linkedlist alec(3);
- alec.check();
- cout << alec.empty() << endl;
- cout << "this is the empty test" << endl;
-cout<< endl;
+ Linkedlist clear_list(3);
 
-alec.clear();
-alec.check();
-alec.rcheck();
+clear_list.clear();
+clear_list.check();
+clear_list.rcheck();
 cout << "this is the clear test" << endl;
 cout<< endl;
 
